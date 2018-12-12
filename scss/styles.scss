@@ -18,15 +18,16 @@ body {
   height: 331px;
   border-radius: 3px;
   background: #000;
-  box-shadow: 0 0 13px 5px rgba(0, 0, 0, 1);
+  box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.6);
 
   transform: scale(0.9);
-  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
 
   cursor: pointer;
 
   &:hover {
     transform: scale(1);
+    box-shadow: 0 8px 12px 0px rgba(0, 0, 0, 0.6);
   }
 
   img {
